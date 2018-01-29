@@ -1,7 +1,7 @@
 /*
  *Controlador principal
  */
-package juegoletras_controladores;
+package juegoletras;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,10 +9,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import javax.swing.Timer;
-/**
- *
- * @author Luly
- */
+
 public class Controlador implements ActionListener, KeyListener{
     private Vista vista;
     private Timer tiempo;
