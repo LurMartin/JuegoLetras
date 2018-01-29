@@ -1,7 +1,7 @@
 
-package juegoletras_controladores;
+package juegoletras;
 
-public class JuegoLetras_Controladores {
+public class JuegoLetras {
 
     public static void main(String[] args) {
         
