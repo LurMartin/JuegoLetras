@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ej12_applluvialetras;
+package juegoletras;
 
 import java.awt.Button;
 import java.awt.CheckboxGroup;
@@ -27,10 +22,6 @@ import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import javax.swing.Timer;
 
-/**
- *
- * @author Lourdes
- */
 public class Vista extends Frame {
 
     private Controlador c;
