@@ -26,6 +26,7 @@ public class Vista extends Frame {
 
     private Controlador c;
     private ControladorMenu cMenu;
+    private Modelo modelo;
     //private ArrayList<Button> arrayBtn;
     private Button [] arrayBtn;
     private MenuBar barraMenu;
@@ -40,8 +41,10 @@ public class Vista extends Frame {
     private Timer timer,timer2;
 
     public Vista() {
-        c = new Controlador(this);
-        cMenu = new ControladorMenu(this);
+        modelo=new Modelo();
+        c = new Controlador(this,modelo);
+        cMenu = new ControladorMenu(this,modelo);
+        
         anchoVentana = 1000;
         altoVentana = 700;
         anchoBoton = 30;
