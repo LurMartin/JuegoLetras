@@ -1,12 +1,5 @@
-/*
+package juegoletras;
 
- */
-package juegointefaces;
-
-/**
- *
- * @author Marta
- */
 public class Letra {
     private int posX;
     private int posY;
