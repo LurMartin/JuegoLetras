@@ -1,15 +1,11 @@
 
-package juegoletras_controladores;
+package juegoletras;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-/**
- *
- * @author Luly
- */
 public class ControladorMenu implements ActionListener, ItemListener{
     private Vista vista;
     public ControladorMenu(Vista vista){
