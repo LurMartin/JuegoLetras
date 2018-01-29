@@ -1,13 +1,5 @@
-/*
- para crear la letra vamos para que el label tenga la letra he visto que hay que pasarle por parametro la letra
-ya que es el controlador quien tiene la letra, o el array de letras va en letras o en el mismo modelo.
- */
-package juegointefaces;
+package juegoletras;
 
-/**
- *
- * @author Marta
- */
 public class Modelo {
     private int puntuacion;
     private Letra letra;
